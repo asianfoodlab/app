@@ -26,7 +26,7 @@ Technical Features / Requirements:
 
 * Submit app to Apple App Store and Google Play Store, including code signing process
 * UI styled to exact [design spec in Figma](https://www.figma.com/file/fjzTIloCEK4FpbyDiTLj2X/iOS-UX) ([#186](https://github.com/WorldHealthOrganization/app/issues/186))
-  * Displaying static content in English only
+  * Displaying static content in English only, with the possibility of French as a stretch goal (does not block release)
 * Offline functionality: default content still available without a network connection ([#120](https://github.com/WorldHealthOrganization/app/pull/120))
 * Localization technical frameworks for UI elements and informational content, demonstrating capabilities even if content is not adapted to languages/cultures in this milestone ([#284](https://github.com/WorldHealthOrganization/app/pull/284))
 
@@ -63,7 +63,7 @@ Features:
 
 * Beta distribution setup for the app before public availability on app stores (e.g. TestFlight) ([#132](https://github.com/WorldHealthOrganization/app/issues/132))
   * _Possible v0.1 feature?_
-* Possibly remodel the presentation of content using a Snapchat story-style interface ([#229](https://github.com/WorldHealthOrganization/app/issues/229))
+* Possibly remodel the presentation of content using an engaging, modern interface (ex. like snapchat or other consumption ux paradigms) ([#229](https://github.com/WorldHealthOrganization/app/issues/229))
 * Match or exceed the existing functionality & content in the [WHO WhatsApp Bot](https://api.whatsapp.com/send?phone=41225017615&text=hi&source=&data=), presented idiomatically as an app ([#208](https://github.com/WorldHealthOrganization/app/issues/208))
   * _See internal documentation on content in the bot_
 * Dynamically loading data from the cloud for updates on content ([#120](https://github.com/WorldHealthOrganization/app/pull/120))
@@ -73,6 +73,7 @@ Features:
 * Analytics and instrumentation enabled in the app ([#183](https://github.com/WorldHealthOrganization/app/issues/183))
   * Complying with all applicable laws & regulations and app policies
   * Should be able to get basic analytics for product improvement, such as which features and pages are being used by end users
+* Notifications opt-in UX
 * Basic triage survey?
 
 ### v1.0
